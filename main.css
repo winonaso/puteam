@@ -320,7 +320,7 @@ a:hover{
 }
 #contact a {
 	text-decoration: none;
-	color: #ECF0F1;
+	color: #E74C3C;
 	font-weight: bold;
 }
  #contact .how{
@@ -357,6 +357,9 @@ a:hover{
 #copyright {
 	padding-top: 25px;
 }
+#copyright a{
+	color: #000;
+}
 #news-media img{
 	max-width: 200px;
 }
@@ -366,6 +369,14 @@ a:hover{
 	text-align: center;
 	color: #2980B9;
 	font-style: italic;
+}
+.section2 #survey{
+	border: white 2px solid;
+    line-height: 67px;
+    padding: 10px;
+}
+.section2 #surveyblock{
+	text-align: center;
 }
 @media screen and (max-width:750px) {
     ul li#news {clear:both;float:right;}
