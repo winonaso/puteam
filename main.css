@@ -133,11 +133,11 @@ a:hover{
     margin-right: 5px;
     font-size: 13px;
 }
-.navbar .links a, .paypal_btn {
+.navbar .links a, .donation_btn {
 	margin: 0 5px;
 	padding: 5px 10px;
 	text-transform: uppercase;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .navbar .links a:hover{
 	color: #E74C3C;
@@ -149,7 +149,7 @@ a:hover{
 .navbar .links ul li{
 	float: left;
 }
-.paypal_btn{
+.donation_btn{
 	display: inline-block;
 	text-align: center;
 	padding: 20px 25px;
@@ -163,10 +163,10 @@ a:hover{
 	font-size: 20px;
 	font-weight: none;
 }
-.paypal_btn:hover{ 
+.donation_btm:hover{ 
 	text-decoration: underline;
 }
-.paypal{
+.donation{
 	margin: auto;
 }
 .section, .section2 {
@@ -381,7 +381,7 @@ a:hover{
 @media screen and (max-width:750px) {
     ul li#news {clear:both;float:right;}
     ul li#contact {clear:both;float:right;}
-    ul li#paypal {clear:both;float:right;}
+    ul li#donation {clear:both;float:right;}
 }
 header:after,#timeline .timeline-item:after,header:before,#timeline .timeline-item:before{
 	content:'';
