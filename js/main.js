@@ -70,3 +70,14 @@ function scaleBannerVideoSize(element){
 
     });
 }
+
+function navBG() {
+    var navGuy = document.getElementsByClassName("navbar-wrapper");
+    if (window.scrollY>=20){
+        navGuy[0].style.backgroundColor = "#2C3E50";
+    }
+    else {
+        navGuy[0].style.backgroundColor = "transparent";
+    }
+
+}
